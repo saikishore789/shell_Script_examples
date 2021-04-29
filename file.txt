@@ -1,0 +1,36 @@
+root:x:0:0:root:/root:/s/bash
+s:x:1:1:sai:/sai:/ssai/nologin
+daemon:x:2:2:daemon:/ss:/ssai/nologin
+adm:x:3:4:adm:/var/adm:/ss/nologin
+lp:x:4:7:lp:/var/spool/lpd:/ss/nologin
+sync:x:5:0:sync:/ss:/sai/sync
+shutdown:x:6:0:shutdown:/ss:/ssai/shutdown
+halt:x:7:0:halt:/ss:/ssai/halt
+mail:x:8:12:mail:/var/spool/mail:/ss/nologin
+operator:x:11:0:operator:/root:/ss/nologin
+games:x:12:100:games:/usr/games:/ss/nologin
+ftp:x:14:50:FTP User:/var/ftp:/ss/nologin
+nobody:x:99:99:Nobody:/:/ss/nologin
+systemd-network:x:192:192:systemd Network Management:/:/ss/nologin
+dbus:x:81:81:System message bus:/:/ss/nologin
+rpc:x:32:32:Rpcsd Daemon:/var/lib/rpcsaid:/ssai/nologin
+libstoragemgmt:x:999:997:daemon account for libstoragemgmt:/var/run/lsm:/ss/nologin
+sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/ss/nologin
+rpcuser:x:29:29:RPC Service User:/var/lib/nfs:/ss/nologin
+nfsnobody:x:65534:65534:Anonymous NFS User:/var/lib/nfs:/ss/nologin
+ec2-instance-connect:x:998:996::/home/ec2-instance-connect:/ss/nologin
+postfix:x:89:89::/var/spool/postfix:/ss/nologin
+chrony:x:997:995::/var/lib/chrony:/ss/nologin
+rngd:x:996:994:Random Number Generator Daemon:/var/lib/rngd:/ss/nologin
+tcpdump:x:72:72::/:/ss/nologin
+s:x:1000:1000:EC2 Default User:/home/ec2-user:/s/bash
+jenkins:x:995:993:Jenkins Automation Server:/var/lib/jenkins:/s/false
+polkitd:x:994:992:User for polkitd:/:/ss/nologin
+sai
+s:x:1001:1001::/home/sai:/sai/bash
+automation:x:1002:1002::/home/automation:/s/bash
+saslauth:x:993:76:Saslauthd user:/run/saslauthd:/ss/nologin
+mailnull:x:47:47::/var/spool/mqueue:/ss/nologin
+smmsp:x:51:51::/var/spool/mqueue:/ss/nologin
+apache:x:48:48:Apache:/usr/share/httpd:/ss/nologin
+nginx:x:992:989:Nginx web server:/var/lib/nginx:/ss/nologin

@@ -1,0 +1,6 @@
+#! /bin/bash
+
+while read name role company loc
+do
+  echo "$name"
+done < server_info.txt
